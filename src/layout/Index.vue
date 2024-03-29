@@ -49,6 +49,7 @@ const menuCollapse = computed(() => appStore.menuCollapse)
 }
 
 .page-aside {
+  overflow-x: hidden;
   transition: width 0.3s linear;
 }
 
